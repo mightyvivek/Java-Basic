@@ -1,3 +1,6 @@
+
+// Java Program for renaming a existing file
+
 package com.split.pakage;
 
 import java.io.File;
@@ -6,7 +9,7 @@ public class MainScript {
 
 	public static void main(String[] args) 
 	{// TODO Auto-generated method stub
-		File folder = new File("C:\\Users\\VIVEKNATH\\Desktop\\JPG_IMAGES_TATA_QLS\\JPG_IMAGES_TATA_QLS");
+		File folder = new File("Your Folder path");
 		File[] files = folder.listFiles();
 		System.out.println("New name : "+files[1]);
 		
